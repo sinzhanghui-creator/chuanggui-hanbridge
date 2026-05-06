@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>创归教育 × 新加坡汉桥学院 — 2026中留服巡回展</title>
+<meta name="description" content="创归教育与新加坡汉桥学院携手参加2026中国国际教育巡回展。一年制专升本/专升硕项目，高效升学，国际认可学历，一站式留学解决方案。">
+<meta property="og:title" content="创归教育 × 汉桥学院 — 2026中留服巡回展">
+<meta property="og:description" content="一年制专升本/专升硕项目引关注 — 高效升学路径，国际认可学历。">
+<meta property="og:image" content="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'><rect fill='%230f3460' width='1200' height='630'/><text x='600' y='300' text-anchor='middle' fill='white' font-size='36' font-family='sans-serif'>创归教育 × 汉桥学院</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #0f3460;
+  --navy-light: #1a5276;
+  --gold: #c9a84c;
+  --gold-light: #f0e4c3;
+  --cream: #faf8f2;
+  --white: #ffffff;
+  --text: #2c2c2c;
+  --text-light: #5a5a5a;
+  --radius: 14px;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+
+body {
+  font-family: 'Noto Sans SC', system-ui, sans-serif;
+  background: var(--cream);
+  color: var(--text);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+/* ── Nav ── */
+nav {
+  position:sticky; top:0; z-index:100;
+  background: rgba(15,52,96,0.95);
+  backdrop-filter: blur(12px);
+  padding: 0 24px; height:64px;
+  display:flex; align-items:center; justify-content:space-between;
+  border-bottom: 2px solid var(--gold);
+}
+nav .nav-logo { color:var(--white); font-weight:700; font-size:17px; letter-spacing:1px; }
+nav .nav-logo span { color:var(--gold); }
+nav .nav-links { display:flex; gap:24px; }
+nav .nav-links a {
+  color: rgba(255,255,255,0.85); text-decoration:none;
+  font-size:14px; transition:color 0.2s;
+}
+nav .nav-links a:hover { color: var(--gold); }
+nav .cta-btn {
+  background: var(--gold); color:var(--navy);
+  padding:8px 20px; border-radius: 24px; border:none;
+  font-weight:700; font-size:13px; cursor:pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-family:inherit;
+}
+nav .cta-btn:hover { transform: translateY(-2px); box-shadow:0 4px 12px rgba(201,168,76,0.4); }
+
+/* ── Hero ── */
+.hero {
+  background: linear-gradient(135deg, var(--navy) 0%, #0a2647 40%, var(--navy-light) 100%);
+  position:relative; overflow:hidden;
+  padding: 80px 24px 60px;
+  text-align:center; color:var(--white);
+}
+.hero::before {
+  content:''; position:absolute; inset:0;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(201,168,76,0.08) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(201,168,76,0.06) 0%, transparent 50%);
+}
+.hero .logo-container {
+  position:relative; z-index:1;
+  background: var(--white); border-radius: var(--radius);
+  padding: 24px 40px; display:inline-block;
+  margin-bottom: 32px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+.hero .logo-container img {
+  max-width: min(320px, 80vw); height:auto;
+}
+.hero .badge {
+  display:inline-block; background: var(--gold);
+  color:var(--navy); font-weight:700; font-size:13px;
+  padding: 6px 16px; border-radius: 20px;
+  margin-bottom: 20px; position:relative; z-index:1;
+}
+.hero h1 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(28px, 5vw, 44px); font-weight:900;
+  line-height:1.4; position:relative; z-index:1;
+}
+.hero h1 em {
+  font-style:normal; color:var(--gold);
+  position:relative;
+}
+.hero h1 em::after {
+  content:''; position:absolute; left:0; bottom:-2px;
+  width:100%; height:6px;
+  background: var(--gold); opacity:0.3;
+  border-radius:3px; z-index:-1;
+}
+.hero .subtitle {
+  margin-top:16px; font-size:clamp(14px, 2.5vw, 18px);
+  color:rgba(255,255,255,0.8); position:relative; z-index:1;
+  max-width:600px; margin-inline:auto;
+}
+.hero .stats {
+  display:flex; gap:40px; justify-content:center;
+  margin-top:36px; flex-wrap:wrap; position:relative; z-index:1;
+}
+.hero .stat { text-align:center; }
+.hero .stat .num {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 36px; font-weight:900; color:var(--gold);
+}
+.hero .stat .label {
+  font-size:13px; color:rgba(255,255,255,0.7); margin-top:4px;
+}
+
+/* ── Section ── */
+.section {
+  max-width: 1000px; margin:0 auto; padding: 64px 20px;
+}
+.section-label {
+  font-size:12px; text-transform:uppercase; letter-spacing:3px;
+  color:var(--gold); font-weight:600; margin-bottom:8px;
+}
+.section-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(24px, 4vw, 32px); font-weight:700;
+  color:var(--navy); margin-bottom: 8px;
+}
+.section-subtitle {
+  font-size:15px; color:var(--text-light); margin-bottom: 32px;
+}
+
+/* ── Program Cards ── */
+.card-grid {
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+.card {
+  background: var(--white); border-radius: var(--radius);
+  padding: 28px; border: 1px solid #e8e2d0;
+  transition: transform 0.25s, box-shadow 0.25s;
+  position:relative; overflow:hidden;
+}
+.card::before {
+  content:''; position:absolute; top:0; left:0; right:0;
+  height:4px; background: linear-gradient(90deg, var(--navy), var(--gold));
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(15,52,96,0.1);
+}
+.card .card-icon { font-size:36px; margin-bottom:12px; }
+.card h4 { font-size:18px; font-weight:700; color:var(--navy); margin-bottom:8px; }
+.card .card-tag {
+  display:inline-block; background:var(--gold-light);
+  color:var(--navy); font-size:12px; font-weight:600;
+  padding:3px 10px; border-radius:12px; margin-bottom:12px;
+}
+.card ul { list-style:none; }
+.card li {
+  font-size:13px; color:var(--text-light);
+  padding:6px 0; border-bottom:1px solid #f5f0e5;
+  display:flex; align-items:flex-start; gap:8px;
+}
+.card li::before { content:'✦'; color:var(--gold); flex-shrink:0; }
+.card li:last-child { border-bottom:none; }
+
+/* ── Highlight ── */
+.highlight-bar {
+  background: linear-gradient(135deg, var(--navy), var(--navy-light));
+  color:var(--white); padding:48px 20px; text-align:center;
+}
+.highlight-bar h3 {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(20px, 3vw, 28px); font-weight:700;
+}
+.highlight-bar .highlight-grid {
+  display:flex; gap:36px; justify-content:center;
+  margin-top:32px; flex-wrap:wrap;
+  max-width:900px; margin-inline:auto;
+}
+.hl-item { text-align:center; }
+.hl-item .icon { font-size:40px; margin-bottom:8px; }
+.hl-item .title { font-weight:700; font-size:15px; color:var(--gold); }
+.hl-item .desc { font-size:13px; color:rgba(255,255,255,0.8); margin-top:4px; }
+
+/* ── Timeline ── */
+.timeline { position:relative; padding-left:32px; }
+.timeline::before {
+  content:''; position:absolute; left:12px; top:0; bottom:0;
+  width:2px; background: linear-gradient(to bottom, var(--gold), var(--navy-light));;
+}
+.tl-item {
+  position:relative; margin-bottom:24px;
+  padding-left:16px;
+}
+.tl-item::before {
+  content:''; position:absolute; left:-24px; top:6px;
+  width:12px; height:12px; border-radius:50%;
+  background: var(--gold); border:2px solid var(--white);
+  box-shadow:0 0 0 3px var(--gold-light);
+}
+.tl-item h4 { font-size:15px; font-weight:700; color:var(--navy); }
+.tl-item p { font-size:13px; color:var(--text-light); margin-top:2px; }
+
+/* ── Advantages ── */
+.adv-grid {
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap:20px;
+}
+.adv-card {
+  text-align:center; background:var(--white);
+  border-radius:var(--radius); padding:28px 16px;
+  border:1px solid #e8e2d0; transition:transform 0.2s;
+}
+.adv-card:hover { transform:translateY(-4px); }
+.adv-card .adv-icon { font-size:32px; margin-bottom:10px; }
+.adv-card h5 { font-size:14px; font-weight:700; color:var(--navy); }
+.adv-card p { font-size:12px; color:var(--text-light); margin-top:4px; }
+
+/* ── Quote ── */
+.quote-block {
+  background: var(--white); border-left:4px solid var(--gold);
+  padding: 24px 28px; border-radius: 0 var(--radius) var(--radius) 0;
+  margin: 24px 0; font-style:italic;
+}
+.quote-block p { font-size:14px; color:var(--text-light); }
+.quote-block .attribution {
+  margin-top:8px; font-size:13px; font-weight:600;
+  color:var(--navy); font-style:normal;
+}
+
+/* ── Fees Table ── */
+.fee-table {
+  width:100%; border-collapse:collapse; margin: 20px 0;
+  font-size:13px;
+}
+.fee-table th {
+  background:var(--navy); color:var(--white);
+  padding:10px 14px; text-align:left; font-weight:600;
+}
+.fee-table td {
+  padding:10px 14px; border-bottom:1px solid #e8e2d0;
+}
+.fee-table tr:nth-child(even) td { background:#faf8f2; }
+.fee-table tr:hover td { background:var(--gold-light); }
+
+/* ── CTA ── */
+.cta-section {
+  text-align:center; padding:64px 20px;
+  background: linear-gradient(180deg, var(--cream) 0%, var(--gold-light) 100%);
+}
+.cta-section h3 {
+  font-family:'Noto Serif SC', serif;
+  font-size:clamp(20px, 3vw, 28px); font-weight:700;
+  color:var(--navy);
+}
+.cta-section p { font-size:15px; color:var(--text-light); margin:12px 0 24px; }
+.cta-section .btn-primary {
+  display:inline-block; background: var(--navy); color:var(--gold);
+  padding:14px 40px; border-radius:28px; font-size:16px;
+  font-weight:700; text-decoration:none; cursor:pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.cta-section .btn-primary:hover {
+  transform:translateY(-3px);
+  box-shadow:0 8px 28px rgba(15,52,96,0.3);
+}
+
+/* ── Footer ── */
+footer {
+  background:var(--navy); color:rgba(255,255,255,0.7);
+  padding:40px 20px; text-align:center; font-size:13px;
+}
+footer a { color:var(--gold); text-decoration:none; }
+
+/* ── Mobile ── */
+@media (max-width:640px) {
+  nav .nav-links { display:none; }
+  .hero { padding:48px 16px 40px; }
+  .hero .stats { gap:24px; }
+  .hero .stat .num { font-size:28px; }
+  .card-grid { grid-template-columns:1fr; }
+  .adv-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ── Fade in animation ── */
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(24px); }
+  to { opacity:1; transform:translateY(0); }
+}
+.animate { animation:fadeUp 0.6s ease-out both; }
+.animate-d1 { animation-delay:0.1s; }
+.animate-d2 { animation-delay:0.2s; }
+.animate-d3 { animation-delay:0.3s; }
+.animate-d4 { animation-delay:0.4s; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">创归<span>教育</span></div>
+  <div class="nav-links">
+    <a href="#programs">项目介绍</a>
+    <a href="#advantages">学院优势</a>
+    <a href="#services">服务流程</a>
+    <a href="#contact">联系我们</a>
+  </div>
+  <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">免费咨询</button>
+</nav>
+
+<section class="hero">
+  <div class="badge animate">2026 中国国际教育巡回展 · 上海交大站</div>
+  <div class="logo-container animate animate-d1">
+    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='360' height='120'%3E%3Crect fill='white' width='360' height='120' rx='8'/%3E%3Ctext x='180' y='52' text-anchor='middle' font-family='serif' font-size='32' font-weight='bold' fill='%230f3460'%3E创归教育%3C/text%3E%3Ctext x='180' y='78' text-anchor='middle' font-family='sans-serif' font-size='14' fill='%23888'%3ECHUANGGUI EDUCATION%3C/text%3E%3Ctext x='180' y='106' text-anchor='middle' font-size='11' fill='%23c9a84c'%3E× HANBRIDGE INSTITUTE%3C/text%3E%3C/svg%3E" 
+         alt="创归教育" width="320">
+  </div>
+  <h1 class="animate animate-d2">圆满收官！<em>闪耀2026中留服巡回展</em></h1>
+  <p class="subtitle animate animate-d3">
+    创归教育携手新加坡汉桥学院，以一年制专升本/专升硕项目，在上海交大站引发热烈关注。
+  </p>
+  <div class="stats animate animate-d4">
+    <div class="stat"><div class="num">2天</div><div class="label">展会时长</div></div>
+    <div class="stat"><div class="num">4大</div><div class="label">硕士方向</div></div>
+    <div class="stat"><div class="num">1年</div><div class="label">最短学制</div></div>
+    <div class="stat"><div class="num">0</div><div class="label">服务费用</div></div>
+  </div>
+</section>
+
+<section class="section" id="programs">
+  <div class="section-label">Programs</div>
+  <h2 class="section-title">一年制项目介绍</h2>
+  <p class="section-subtitle">高效提升学历的黄金通道 — 全程新加坡就读，获英国萨福克大学学位</p>
+
+  <div class="card-grid">
+    <!-- Card 1: Top-up Bachelor -->
+    <div class="card">
+      <div class="card-icon">🎓</div>
+      <h4>一年制专升本</h4>
+      <div class="card-tag">国际商务管理荣誉学士</div>
+      <ul>
+        <li>学制仅 1 年，专科直升本科</li>
+        <li>英国萨福克大学颁发学位，全球认可</li>
+        <li>接受统招、网教、成教等大专文凭</li>
+        <li>实践导向课程，接触知名企业</li>
+        <li>5 个学科模块，论文+演讲考核</li>
+      </ul>
+    </div>
+
+    <!-- Card 2: Top-up Master -->
+    <div class="card">
+      <div class="card-icon">📚</div>
+      <h4>一年制专升硕</h4>
+      <div class="card-tag">四大硕士专业方向</div>
+      <ul>
+        <li>国际商务管理硕士 — ¥13万</li>
+        <li>工商管理硕士（MBA）— 领导力+金融方向</li>
+        <li>教育学硕士 — 理论+实践，¥13万</li>
+        <li>数据科学与AI硕士 — Python+深度学习，¥17.8万</li>
+        <li>每年 1月/5月/9月 三次入学</li>
+      </ul>
+    </div>
+
+    <!-- Card 3: Key Features -->
+    <div class="card">
+      <div class="card-icon">✨</div>
+      <h4>项目核心优势</h4>
+      <div class="card-tag">为什么选择汉桥学院</div>
+      <ul>
+        <li>学历可通过中国教育部留服中心认证</li>
+        <li>入学门槛灵活，雅思6.0或内测即可</li>
+        <li>论文+演讲考核，多元评估方式</li>
+        <li>可将创业项目作为学习课题</li>
+        <li>新加坡安全宜居，中英双语环境</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="highlight-bar">
+  <h3>四大硕士专业方向一览</h3>
+  <div class="highlight-grid">
+    <div class="hl-item"><div class="icon">🌍</div><div class="title">国际商务管理</div><div class="desc">战略营销 · 变革管理 · ¥13万</div></div>
+    <div class="hl-item"><div class="icon">💼</div><div class="title">MBA</div><div class="desc">领导力 · 品牌战略 · 金融投资</div></div>
+    <div class="hl-item"><div class="icon">📖</div><div class="title">教育学</div><div class="desc">特殊教育 · 组织领导 · ¥13万</div></div>
+    <div class="hl-item"><div class="icon">🤖</div><div class="title">数据科学与AI</div><div class="desc">Python · 深度学习 · ¥17.8万</div></div>
+  </div>
+</section>
+
+<section class="section" id="advantages">
+  <div class="section-label">About Hanbridge</div>
+  <h2 class="section-title">新加坡汉桥学院 · 五大优势</h2>
+  <p class="section-subtitle">成立于2002年，获新加坡EduTrust四年认证的知名高等学府</p>
+
+  <div class="adv-grid">
+    <div class="adv-card"><div class="adv-icon">🏛️</div><h5>权威认证</h5><p>EduTrust四年认证，学历全球认可</p></div>
+    <div class="adv-card"><div class="adv-icon">🛂</div><h5>签证便利</h5><p>学生签证批签率高，无需面签</p></div>
+    <div class="adv-card"><div class="adv-icon">👨‍🏫</div><h5>导师制度</h5><p>教师作为学生的职场和商业顾问</p></div>
+    <div class="adv-card"><div class="adv-icon">📝</div><h5>考核灵活</h5><p>论文、演讲等多元化考核方式</p></div>
+    <div class="adv-card"><div class="adv-icon">💼</div><h5>就业支持</h5><p>与多家新加坡企业合作，提供实习就业机会</p></div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-label">Our Services</div>
+  <h2 class="section-title">创归教育 · 一站式服务流程</h2>
+  <p class="section-subtitle">全部免费 — 从留学评估到新加坡落地，全程护航</p>
+
+  <div class="timeline">
+    <div class="tl-item"><h4>📍 免费留学评估</h4><p>根据学术背景、语言水平和职业规划，提供个性化留学方案</p></div>
+    <div class="tl-item"><h4>📍 免费全程指导</h4><p>从材料准备到签证办理，一站式申请服务</p></div>
+    <div class="tl-item"><h4>📍 免费职业发展咨询</h4><p>结合新加坡就业市场，分析各专业发展前景</p></div>
+    <div class="tl-item"><h4>📍 免费后续支持</h4><p>行前指导 · 住宿安排 · 接机服务 · 落地适应</p></div>
+  </div>
+
+  <div class="quote-block">
+    <p>"原本我们对新加坡的教育体系了解有限，通过创归教育的详细讲解，我们对孩子的留学有了更清晰的认识，也更有信心了。"</p>
+    <div class="attribution">— 上海某重点高中学生家长（展会现场）</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-label">Fee Reference</div>
+  <h2 class="section-title">学费一览</h2>
+  <table class="fee-table">
+    <thead>
+      <tr><th>课程项目</th><th>学制</th><th>入学时间</th><th>学费（人民币）</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>专升本 — 国际商务管理</td><td>1年</td><td>1月/5月/9月</td><td>请咨询</td></tr>
+      <tr><td>国际商务管理硕士</td><td>1年</td><td>1月/5月/9月</td><td>约 ¥130,000</td></tr>
+      <tr><td>工商管理硕士（MBA）</td><td>1年</td><td>1月/5月/9月</td><td>请咨询</td></tr>
+      <tr><td>教育学硕士</td><td>1年</td><td>1月/5月/9月</td><td>约 ¥130,000</td></tr>
+      <tr><td>数据科学与AI硕士</td><td>1年</td><td>1月/5月/9月</td><td>约 ¥178,000</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:12px;color:var(--text-light);margin-top:8px;">* 学位证书由英国萨福克大学颁发，可通过教育部留服中心认证</p>
+</section>
+
+<section class="cta-section" id="contact">
+  <h3>把握机遇，规划未来</h3>
+  <p>无论是希望快速提升学历的专科生，还是寻求职业突破的在职人士<br/>创归教育为您提供专业、可靠、多元化的新加坡升学服务</p>
+  <a href="#" class="btn-primary" onclick="alert('联系方式：请通过创归教育官方渠道咨询')">免费留学评估 →</a>
+</section>
+
+<footer>
+  <p>创归教育 · 新加坡汉桥学院中国区深度战略合作伙伴</p>
+  <p style="margin-top:8px;">© 2026 创归教育 &amp; Hanbridge Institute. 本页仅供信息参考。</p>
+</footer>
+
+<script>
+// Intersection Observer for scroll animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.section, .card, .adv-card, .tl-item').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(20px)';
+  el.style.transition = 'opacity 0.5s ease-out, transform 0.5s ease-out';
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
